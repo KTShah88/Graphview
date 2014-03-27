@@ -13,7 +13,6 @@
 		9E30909F18D1E11B0054DE87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E30909D18D1E11B0054DE87 /* InfoPlist.strings */; };
 		9E3090A118D1E11B0054DE87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3090A018D1E11B0054DE87 /* main.m */; };
 		9E3090A518D1E11B0054DE87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3090A418D1E11B0054DE87 /* AppDelegate.m */; };
-		9E3090A818D1E11B0054DE87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3090A618D1E11B0054DE87 /* Main.storyboard */; };
 		9E3090AB18D1E11B0054DE87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3090AA18D1E11B0054DE87 /* ViewController.m */; };
 		9E3090AD18D1E11B0054DE87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3090AC18D1E11B0054DE87 /* Images.xcassets */; };
 		9E3090B418D1E11B0054DE87 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3090B318D1E11B0054DE87 /* XCTest.framework */; };
@@ -21,6 +20,12 @@
 		9E3090B618D1E11B0054DE87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E30909818D1E11B0054DE87 /* UIKit.framework */; };
 		9E3090BE18D1E11B0054DE87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E3090BC18D1E11B0054DE87 /* InfoPlist.strings */; };
 		9E3090C018D1E11B0054DE87 /* GraphviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3090BF18D1E11B0054DE87 /* GraphviewTests.m */; };
+		9E3090CA18D1E12D0054DE87 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E3090C918D1E12D0054DE87 /* ViewController.xib */; };
+		9E3090CE18D1E20E0054DE87 /* highcharts.js in Sources */ = {isa = PBXBuildFile; fileRef = 9E3090CB18D1E20E0054DE87 /* highcharts.js */; };
+		9E3090CF18D1E20E0054DE87 /* jquery.min.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9E3090CC18D1E20E0054DE87 /* jquery.min.htm */; };
+		9E3090D018D1E20E0054DE87 /* piechart.html in Resources */ = {isa = PBXBuildFile; fileRef = 9E3090CD18D1E20E0054DE87 /* piechart.html */; };
+		9E3090D118D1E3B30054DE87 /* jquery.min.htm in Sources */ = {isa = PBXBuildFile; fileRef = 9E3090CC18D1E20E0054DE87 /* jquery.min.htm */; };
+		9E3090D218D1E4030054DE87 /* highcharts.js in Resources */ = {isa = PBXBuildFile; fileRef = 9E3090CB18D1E20E0054DE87 /* highcharts.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +49,6 @@
 		9E3090A218D1E11B0054DE87 /* Graphview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graphview-Prefix.pch"; sourceTree = "<group>"; };
 		9E3090A318D1E11B0054DE87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E3090A418D1E11B0054DE87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9E3090A718D1E11B0054DE87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E3090A918D1E11B0054DE87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9E3090AA18D1E11B0054DE87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9E3090AC18D1E11B0054DE87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,10 @@
 		9E3090BB18D1E11B0054DE87 /* GraphviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphviewTests-Info.plist"; sourceTree = "<group>"; };
 		9E3090BD18D1E11B0054DE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E3090BF18D1E11B0054DE87 /* GraphviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphviewTests.m; sourceTree = "<group>"; };
+		9E3090C918D1E12D0054DE87 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9E3090CB18D1E20E0054DE87 /* highcharts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highcharts.js; sourceTree = "<group>"; };
+		9E3090CC18D1E20E0054DE87 /* jquery.min.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jquery.min.htm; sourceTree = "<group>"; };
+		9E3090CD18D1E20E0054DE87 /* piechart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = piechart.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +122,9 @@
 			children = (
 				9E3090A318D1E11B0054DE87 /* AppDelegate.h */,
 				9E3090A418D1E11B0054DE87 /* AppDelegate.m */,
-				9E3090A618D1E11B0054DE87 /* Main.storyboard */,
 				9E3090A918D1E11B0054DE87 /* ViewController.h */,
 				9E3090AA18D1E11B0054DE87 /* ViewController.m */,
+				9E3090C918D1E12D0054DE87 /* ViewController.xib */,
 				9E3090AC18D1E11B0054DE87 /* Images.xcassets */,
 				9E30909B18D1E11B0054DE87 /* Supporting Files */,
 			);
@@ -126,6 +134,9 @@
 		9E30909B18D1E11B0054DE87 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E3090CB18D1E20E0054DE87 /* highcharts.js */,
+				9E3090CC18D1E20E0054DE87 /* jquery.min.htm */,
+				9E3090CD18D1E20E0054DE87 /* piechart.html */,
 				9E30909C18D1E11B0054DE87 /* Graphview-Info.plist */,
 				9E30909D18D1E11B0054DE87 /* InfoPlist.strings */,
 				9E3090A018D1E11B0054DE87 /* main.m */,
@@ -228,9 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3090D218D1E4030054DE87 /* highcharts.js in Resources */,
 				9E3090AD18D1E11B0054DE87 /* Images.xcassets in Resources */,
+				9E3090CA18D1E12D0054DE87 /* ViewController.xib in Resources */,
 				9E30909F18D1E11B0054DE87 /* InfoPlist.strings in Resources */,
-				9E3090A818D1E11B0054DE87 /* Main.storyboard in Resources */,
+				9E3090D018D1E20E0054DE87 /* piechart.html in Resources */,
+				9E3090CF18D1E20E0054DE87 /* jquery.min.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3090D118D1E3B30054DE87 /* jquery.min.htm in Sources */,
 				9E3090AB18D1E11B0054DE87 /* ViewController.m in Sources */,
+				9E3090CE18D1E20E0054DE87 /* highcharts.js in Sources */,
 				9E3090A518D1E11B0054DE87 /* AppDelegate.m in Sources */,
 				9E3090A118D1E11B0054DE87 /* main.m in Sources */,
 			);
@@ -280,14 +296,6 @@
 				9E30909E18D1E11B0054DE87 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9E3090A618D1E11B0054DE87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E3090A718D1E11B0054DE87 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		9E3090BC18D1E11B0054DE87 /* InfoPlist.strings */ = {
@@ -378,10 +386,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Schulte (F6ZJ84Q536)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Graphview/Graphview-Prefix.pch";
 				INFOPLIST_FILE = "Graphview/Graphview-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B4A8B6B2-5543-4A1C-839B-B5FDEE2AC2C1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +401,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Schulte (F6ZJ84Q536)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Graphview/Graphview-Prefix.pch";
 				INFOPLIST_FILE = "Graphview/Graphview-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B4A8B6B2-5543-4A1C-839B-B5FDEE2AC2C1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +472,7 @@
 				9E3090C518D1E11B0054DE87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E3090C618D1E11B0054DE87 /* Build configuration list for PBXNativeTarget "GraphviewTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				9E3090C818D1E11B0054DE87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

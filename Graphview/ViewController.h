@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UIWebViewDelegate>{
+    IBOutlet UIWebView *webView;
+}
+    -(IBAction)m:(id)sender;
 @end
